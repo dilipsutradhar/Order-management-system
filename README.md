@@ -10,6 +10,18 @@
 
 
 --> H2 DB is used for the database DAO operations along with that Spring Data JPA is used.
+          
+          Driver Class= org.h2.Driver
+          IDBC URL= jdbc:h2:mem:dilip
+          
+          To Access H2 Database use this:
+                    http://localhost:8080/h2-console/l
+
+--> Building the project.
+          1. clone the project using git prospective in your eclipse
+          2. go to java prospective
+          3. there is two project just do "import as gradle project" for both the project.
+          4. run Application class from both the peoject
 
 
 --> To test The Application Hit below URI's :
